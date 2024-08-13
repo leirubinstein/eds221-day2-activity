@@ -1,0 +1,23 @@
+---
+title: "Day 2 afternoon tasks wild data"
+author: "Leilanie Rubinstein"
+format: html
+execute: 
+  warning: false
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+# setup
+library(tidyverse)
+library(here)
+library(janitor)
+```
+
+```{r}
+# read in the data
+mack_verts <- read_csv(here::here("data", "AS00601.csv"))
+
+```
+
